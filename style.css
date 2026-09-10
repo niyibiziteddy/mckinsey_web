@@ -11,3 +11,20 @@ img{
 body{
     background-color: #0f2130;
 }
+nav{
+    display: grid;
+    grid-template-columns: 100rem 1fr 100px;
+}
+.logo{
+    padding: 2rem;
+    width: 20%;
+    display: flex;
+    gap:2rem;
+}
+.logo #threeLines{
+    width: 15%;
+}
+.logo #logo-img{
+    width: 70%;
+    height: 70px;
+}

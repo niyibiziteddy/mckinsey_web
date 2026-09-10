@@ -455,4 +455,12 @@ nav{
     text-align: center;
     width: 80%;
     margin-inline: auto;
+    margin-bottom: 1rem;
+}
+.download-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.qrcode img{
+    width: 100%;
 }

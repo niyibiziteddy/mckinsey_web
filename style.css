@@ -28,6 +28,8 @@ nav{
 .logo #logo-img{
     width: 80%;
     height: 50px;
+    background-color: #0f2130;
+    color: white;
 }
 .nav-sections{
     display: flex;
@@ -53,6 +55,7 @@ nav{
     flex-direction: column;
 }
 .nav-search img{
+    height: 60px;
     width: 80px;
     margin-left: 10rem;
 }

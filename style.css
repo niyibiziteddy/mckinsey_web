@@ -358,37 +358,37 @@ nav{
     display: flex;
     gap: 1rem;
 }
-.help{
+.help, .societal{
     padding: 4rem;
 }
-.how-parag{
+.how-parag, .societal-parag{
     margin-inline: auto;
     text-align: center;
     width: 60%;
     color: white;
     margin-bottom: 1.2rem;
 }
-.how-parag h4{
+.how-parag h4,.societal-parag h4{
     font-size: 1.6rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.how-parag p{
+.how-parag p, .societal-parag p{
     font-size: 3rem;
 }
-.help-corosel{
+.help-corosel, .societal-corosel{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 
 }
-.corosel-items{
+.corosel-items, .societal-items{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     color: white;
 }
-.corosel-items p{
+.corosel-items p, .societal-items p{
     font-size: 1.3rem;
 }
 .careers{
@@ -439,4 +439,20 @@ nav{
     left: 1070px;
     background-color: blue;
     z-index: 0;
+}
+.societal{
+    background-color: blue;
+    padding: 5rem;
+}
+.download{
+    background-color: white;
+    height: 700px;
+    padding: 5rem;
+}
+.download h1{
+    font-size: 3.7rem;
+    font-weight: 100;
+    text-align: center;
+    width: 80%;
+    margin-inline: auto;
 }

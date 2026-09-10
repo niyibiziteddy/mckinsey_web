@@ -103,7 +103,6 @@ nav{
 }
 .what_next .images_what_next{
     background-color: aqua;
-    height: 800px;
 }
 .images_what_next{
     display: grid;
@@ -118,8 +117,20 @@ nav{
     height: 35rem;
 }
 .items.article{
-    background-image: url(/images/article.webp);
+    background: url(/images/article.jpeg) no-repeat center/cover;
 }
-.items.second{
-    margin-top: 4rem;
+.items.survey{
+    background: url(/images/survey.jpeg) no-repeat center/cover;
+    margin-top: 5rem;
+    height: 27rem;
+
+}
+.items.podcast{
+    background: url(/images/podcast.png) no-repeat center/cover;
+    height: 20rem;
+}
+.items.upcoming{
+    background: url(/images/upcoming.png) no-repeat center/cover;
+    height: 25rem;
+    margin-top: -2.4rem;
 }

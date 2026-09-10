@@ -92,6 +92,11 @@ nav{
 .under_nav .right{
     background-color: thistle;
 }
+.what_next{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 .what_next .paragraph{
     height: 200px;
     background-color: brown;
@@ -108,4 +113,13 @@ nav{
 .items{
     height: 100px;
     background-color: aquamarine;
+}
+.items.article{
+    height: 35rem;
+}
+.items.article{
+    background-image: url(/images/article.webp);
+}
+.items.second{
+    margin-top: 4rem;
 }

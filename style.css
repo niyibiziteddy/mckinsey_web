@@ -91,6 +91,18 @@ nav{
 }
 .under_nav .right{
     background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right .upper-right{
+    height: 55rem;
+    background: url(/images/right-part.png) no-repeat center/cover;
+
+}
+.right .lower-right{
+    height: 20rem;
+    background-color: grey;
 }
 .what_next{
     display: flex;
@@ -161,4 +173,15 @@ nav{
     background: url(/images/upcoming.png) no-repeat center/cover;
     height: 25rem;
     margin-top: -2.4rem;
+}
+.subscribe{
+    padding: 3rem;
+}
+.subscribe .input{
+    display: flex;
+}
+
+sub
+.subscribe .input img{
+    width: 10%;
 }

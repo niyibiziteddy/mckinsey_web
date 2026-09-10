@@ -446,7 +446,6 @@ nav{
 }
 .download{
     background-color: white;
-    height: 700px;
     padding: 5rem;
 }
 .download h1{
@@ -457,10 +456,43 @@ nav{
     margin-inline: auto;
     margin-bottom: 1rem;
 }
-.download-div{
+.download-divs{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .qrcode img{
     width: 100%;
+}
+.store h1{
+    text-align: left;
+    font-size: 2.9rem;
+}
+.down-links{
+    display: flex;
+    justify-content: start;
+    gap: 0.6rem;
+    margin-left: 3rem;
+}
+.down-links img{
+    width: 30%;
+
+}
+.deferred{
+    height: 300px;
+    background-color: rgb(235, 231, 227);
+    padding: 6rem;
+
+}
+.deferred .main{
+    font-size: 1.7rem;
+    height: 90px;
+    display: flex;
+    padding: 1.8rem 1.8rem 1.8rem 0;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.deferred img{
+    width: 5%;
+    transform: rotate(90deg);
 }

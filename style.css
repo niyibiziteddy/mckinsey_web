@@ -80,17 +80,12 @@ nav{
     margin-top: 7rem;
     width: 90%;
     margin-inline: auto;
-    background-color: aquamarine;
     display: grid;
     grid-template-columns: 1.3fr 1fr;
-
-    height: 300px;
-}
-.under_nav .left{
-    background-color: bisque;
+    gap: 1rem;
+    margin: 100px;
 }
 .under_nav .right{
-    background-color: thistle;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -109,10 +104,17 @@ nav{
     flex-direction: column;
     gap: 1rem;
 }
+.images_what_next .items{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    justify-content: end;
+}
 .what_next .paragraph{
     padding: 1rem;
     height: 280px;
-    background-color: brown;
 }
 .what_next img{
     width: 100%;
@@ -139,10 +141,9 @@ nav{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #0b1b29;
+    background-color: #15344e;
 }
 .what_next .images_what_next{
-    background-color: aqua;
 }
 .images_what_next{
     display: grid;
@@ -187,6 +188,7 @@ nav{
 }
 .subscribe input{
     width: 90%;
+    padding: 10px;
 }
 .subscribe .input .img{
     width: 10%;
@@ -199,6 +201,7 @@ nav{
 .continueSec{
     display: flex;
     width: 100%;
+    margin-bottom: 20px;
 }
 .continueSec .line{
     width: 150px;
@@ -213,13 +216,36 @@ nav{
 
 }
 .social-item.apple img{
-    width: 5%;
+    width: 13%;
 }
 .social-item.linkedIn img{
-    width: 5%;
+    width: 13%;
 }
 .social-item{
     display: flex;
-    border: 1px solid black;
-    padding:10px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 25%;
+    padding: 8px;
+    gap: 8px;
+    color: white;
+}
+.featured{
+    height: 400px;
+    background: url(/images/newsleter-banner.png) no-repeat center/cover;
+    padding: 60px;
+}
+.subsection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.subsection h1{
+    font-size: 3rem;
+    color: white;
+}
+.subsection p{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 100;
 }
